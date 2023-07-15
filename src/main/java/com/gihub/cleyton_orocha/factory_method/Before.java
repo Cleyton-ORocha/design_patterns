@@ -19,9 +19,9 @@ public class Before {
             Integer number = Integer.parseInt(scan.next());
             
             
-            if (number == 1) monster = new Spyder("Mosco", "arachnid", new BigDecimal(2.0), 10);
-            if (number == 2) monster = new Mimic("CoolChest", "chest", new BigDecimal(2.0), 5);
-            if (number == 3) monster = new Goblin("Lindoval", "biped", new BigDecimal(1.2), 2);
+            if (number == 1) monster = new Spyder("Mosco", "arachnid", BigDecimal.valueOf(2.0), 10);
+            if (number == 2) monster = new Mimic("CoolChest", "chest", BigDecimal.valueOf(2.0), 5);
+            if (number == 3) monster = new Goblin("Lindoval", "biped", BigDecimal.valueOf(1.2), 2);
             if (monster != null) break;
         }
 
