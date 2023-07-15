@@ -1,4 +1,4 @@
-package com.gihub.cleyton_orocha.factory_method.afterSimpleFactory;
+package com.gihub.cleyton_orocha.factory_method.after.SimpleFactory;
 
 import java.math.BigDecimal;
 import java.util.Scanner;

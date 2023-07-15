@@ -1,12 +1,12 @@
-package com.gihub.cleyton_orocha.factory_method.afterWithEntityFactory;
+package com.gihub.cleyton_orocha.factory_method.after.EntityFactory;
 
 import java.util.Scanner;
 
 import com.gihub.cleyton_orocha.factory_method.abstracts.Monster;
-import com.gihub.cleyton_orocha.factory_method.afterWithEntityFactory.factory.GoblinWithEntityFactory;
-import com.gihub.cleyton_orocha.factory_method.afterWithEntityFactory.factory.MimicWithEntityFactory;
-import com.gihub.cleyton_orocha.factory_method.afterWithEntityFactory.factory.MonsterFactoryEntityFactory;
-import com.gihub.cleyton_orocha.factory_method.afterWithEntityFactory.factory.SpyderWithEntityFactory;
+import com.gihub.cleyton_orocha.factory_method.after.EntityFactory.factory.GoblinWithEntityFactory;
+import com.gihub.cleyton_orocha.factory_method.after.EntityFactory.factory.MimicWithEntityFactory;
+import com.gihub.cleyton_orocha.factory_method.after.EntityFactory.factory.MonsterFactoryEntityFactory;
+import com.gihub.cleyton_orocha.factory_method.after.EntityFactory.factory.SpyderWithEntityFactory;
 
 public class AfterWithEntityFactory {
         public static void main(String[] args) {
